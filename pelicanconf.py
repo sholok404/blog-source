@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Syed Subeh-Sadik Sholok'
 SITENAME = "Sholok's Notes"
-SITEURL = 'http://sholok404.github.io/'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -29,8 +29,6 @@ COLOR_SCHEME_CSS = 'monokai.css'
 
 MENUITEMS = (
 	 ('Portfolio', 'https://sholok404.github.io/resume/'),)
-
-SIDEBAR_DIGEST = 'A kid from Bangladesh who types stuff in computers and sometimes it makes stuff happen.'
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/sholok404'),
