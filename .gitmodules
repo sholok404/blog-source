@@ -1,0 +1,6 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/sholok404/sholok404.github.io.git
+[submodule "sholok404.github.io"]
+	path = sholok404.github.io
+	url = https://github.com/sholok404/sholok404.github.io.git
