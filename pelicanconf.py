@@ -13,6 +13,7 @@ TIMEZONE = 'Asia/Dhaka'
 DEFAULT_LANG = 'en'
 
 THEME = 'pelican-themes/pelican-clean-blog'
+RELATIVE_URLS = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,6 +27,7 @@ HEADER_COVER = 'http://peek.space/art/earth-lights-lrg/full.jpg'
 FAVICON = 'favicon.ico'
 DISPLAY_PAGES_ON_MENU = True
 COLOR_SCHEME_CSS = 'monokai.css'
+DISQUS_SITENAME = 'sholoks-notes'
 
 MENUITEMS = (
 	 ('Portfolio', 'https://sholok404.github.io/resume/'),)
