@@ -15,12 +15,11 @@ DEFAULT_LANG = 'en'
 THEME = 'pelican-themes/pelican-clean-blog'
 RELATIVE_URLS = True
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+
+FEED_DOMAIN = SITEURL
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
 
 STATIC_PATHS = ['images', 'favicon.ico']
 HEADER_COVER = 'http://peek.space/art/earth-lights-lrg/full.jpg'
@@ -38,7 +37,8 @@ SOCIAL = (('Github', 'https://github.com/sholok404'),
 			('envelope','mailto:syedsholok@gmail.com'),
 			('Linkedin', 'https://bd.linkedin.com/in/subeh-sadik-sholok-436705103'),
             ('YouTube', 'https://www.youtube.com/channel/UCABF-0VCiJ1HaNCs4x7L36A'),
-			('Facebook', 'https://www.facebook.com/subehsadik.sholok'))
+			('Facebook', 'https://www.facebook.com/subehsadik.sholok'),
+			('rss', 'feeds/all.rss.xml'))
 
 DEFAULT_PAGINATION = 10
 
