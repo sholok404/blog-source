@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Syed Subeh-Sadik Sholok'
 SITENAME = "Sholok's Notes"
-SITEURL = ''
+SITEURL = 'https://sholok404.github.io'
 
 PATH = 'content'
 
@@ -22,7 +22,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
+STATIC_PATHS = ['images', 'favicon.ico']
 HEADER_COVER = 'http://peek.space/art/earth-lights-lrg/full.jpg'
 FAVICON = 'favicon.ico'
 DISPLAY_PAGES_ON_MENU = True
@@ -35,6 +35,7 @@ MENUITEMS = (
 # Social widget
 SOCIAL = (('Github', 'https://github.com/sholok404'),
 			('Codepen', 'https://codepen.io/Sholok404/'),
+			('envelope','mailto:syedsholok@gmail.com'),
 			('Linkedin', 'https://bd.linkedin.com/in/subeh-sadik-sholok-436705103'),
             ('YouTube', 'https://www.youtube.com/channel/UCABF-0VCiJ1HaNCs4x7L36A'),
 			('Facebook', 'https://www.facebook.com/subehsadik.sholok'))
