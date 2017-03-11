@@ -1,6 +1,7 @@
 Title: Hosting Your Pelican Website in Github Pages
 Date: 2017-11-06 3:17
 Category: Git
+Tags: github, github pages, pelican, python, web hosting, git
 
 Hosting Pelican websites can be pretty complicated; there is not a lot
 of documentation about it. This is why I am writing this article. Also, I am assuming

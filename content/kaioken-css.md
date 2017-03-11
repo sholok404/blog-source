@@ -1,6 +1,7 @@
 Title: Kaioken CSS - Probably King Kai's Favourite framework
 Date: 2017-03-10 4:00
 Category: CSS
+Tags: Kaioken, CSS, kaioken-css, framework, flexbox, grid
 
 A few days back, I was struggling with Bootstrap mainly because it was too kind
 in the sense that it did too much for me. The problem I mainly faced with was
